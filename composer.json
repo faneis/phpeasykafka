@@ -1,5 +1,5 @@
 {
-    "name": "wesleywillians/phpeasykafka",
+    "name": "faneis/phpeasykafka",
     "description": "Abstraction layer of phprdkafka",
     "type": "library",
     "license": "MIT",
@@ -14,15 +14,12 @@
         }
     ],
     "config": {
-        "platform": {
-            "php": "7.1"
-        },
         "preferred-install": "dist",
         "sort-packages": true
     },
     "minimum-stability": "dev",
     "require": {
-        "php": "^7.1",
+        "php": "~8.1",
         "psr/container": "*",
         "ext-rdkafka": "*"
     },
